@@ -22,11 +22,13 @@ img{
 #HStoreTitle{
     text-indent: 40px;
     color:orange;
-    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000;
     
 }
 #GoblinTitle{
     text-indent: 40px;
+    font-size: 14pt;
 }
 
 #propsLink:link{
@@ -60,15 +62,19 @@ img{
 }
 #one{
     padding:5px;
+    font-weight: bold;
 }
 #two{
     padding:5px;
+    font-weight: bold;
 }
 #three{
     padding:5px;
+    font-weight: bold;
 }
 #four{
     padding:5px;
+    font-weight: bold;
 }
 #copywrite{
     font-size: 10pt;
