@@ -1,7 +1,13 @@
+html{
+    background-image: url("../images/bats.gif");
+
+}
 body{
-/*    margin: 0 auto;
-    width: 800px;*/
+    margin: 0 auto;
+    width: 800px;
     font-family: sans-serif;
+    box-shadow: 10px 10px 80px #000;
+    background: white;
 }
 
 h1{
@@ -14,21 +20,24 @@ h3{
     font-size: 16pt;
 }
 #mainTitle::first-letter{
-    font-size: 64pt;
+    font-size: 50pt;
 }
 img{
     float:left;
+    padding:20px;
 }
 #HStoreTitle{
-    text-indent: 40px;
-    color:orange;
-    font-style: italic;
-    text-shadow: 2px 2px 2px #000;
+    text-indent: 20px;
+    padding:20px;
+    font-size: 44px;
     
 }
 #GoblinTitle{
-    text-indent: 40px;
-    font-size: 14pt;
+    text-indent: 20px;
+    font-size: 16pt;
+    margin-top: -45px;
+    font-weight: bold;
+    margin-bottom: 35px;
 }
 
 #propsLink:link{
@@ -78,6 +87,33 @@ img{
 }
 #copywrite{
     font-size: 10pt;
+    padding: 20px;
     display: block;
     text-align: center;
+    border-top: 2px solid;
+    border-color: black;
+    background: linear-gradient(45deg, black, orange, white);
+}
+#topHeader{
+    border-bottom: 2px solid;
+    border-color: black;
+    background: linear-gradient(45deg, white, orange, black);
+}
+#main{
+    padding:10px;
+    margin-top:-30px;
+}
+#head1{
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top:-15px;
+}
+#product_categories{
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top:-20px;
+}
+#guarantee{
+    margin-left: 10px;
+    margin-right:10px;
 }
