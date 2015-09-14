@@ -126,7 +126,6 @@ img{
 #catLink:link{
     color:orange;
     font-weight: bold;
-    float: bottom;
 }
 #catLink:hover{
     color:green;
