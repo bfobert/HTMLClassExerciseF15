@@ -1,0 +1,77 @@
+body{
+/*    margin: 0 auto;
+    width: 800px;*/
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 24pt;
+}
+h2{
+    font-size: 20pt;
+}
+h3{
+    font-size: 16pt;
+}
+#mainTitle::first-letter{
+    font-size: 64pt;
+}
+img{
+    float:left;
+}
+#HStoreTitle{
+    text-indent: 40px;
+    color:orange;
+    font-weight: bold;
+    
+}
+#GoblinTitle{
+    text-indent: 40px;
+}
+
+#propsLink:link{
+    color:orange;
+    font-weight: bold;
+}
+#propsLink:hover{
+    color:green;
+}
+
+#costumesLink:link{
+    color:orange;
+    font-weight: bold;
+}
+#costumesLink:hover{
+    color:green;
+}
+#speffectsLink:link{
+    color:orange;
+    font-weight: bold;
+}
+#speffectsLink:hover{
+    color:green;
+}
+#masksLink:link{
+    color:orange;
+    font-weight: bold;
+}
+#masksLink:hover{
+    color:green;
+}
+#one{
+    padding:5px;
+}
+#two{
+    padding:5px;
+}
+#three{
+    padding:5px;
+}
+#four{
+    padding:5px;
+}
+#copywrite{
+    font-size: 10pt;
+    display: block;
+    text-align: center;
+}
