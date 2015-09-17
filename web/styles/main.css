@@ -167,10 +167,12 @@ img{
 #h_menu li{
     display: inline-block;
 }
+.current{
+    color: orange;
+}
 #h_menu li a{
     line-height: 2.3em;
     padding: 0 1.6em;
-    color: white;
     text-decoration: none;
     display: block;
     font-weight: 600;
@@ -193,6 +195,27 @@ img{
 #ione{
     margin-left: -90px;
 }
-.current #h_menu li a:hover.current{
-    color: orange;
+#itwo{
+    color:white;
+}
+#itwo:hover{
+    color:black;
+}
+#ithree{
+    color:white;
+}
+#ithree:hover{
+    color:black;
+}
+#ifour{
+    color:white;
+}
+#ifour:hover{
+    color:black;
+}
+#ifive{
+    color:white;
+}
+#ifive:hover{
+    color:black;
 }
