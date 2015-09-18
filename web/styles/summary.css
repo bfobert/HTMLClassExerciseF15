@@ -238,12 +238,13 @@ img{
     padding-bottom: 10px;
 }
 #rightList{
-    width: 160px;
+    width: 55px;
     min-height: 400px;
     background: #F5DEB3;
-    margin-top: -382px;
+    margin-top: -411px;
     margin-left: 525px;
 }
 #rightList li{
-    padding-bottom: 11px;
+    padding-bottom: 10px;
+    margin-left: -28px;
 }
