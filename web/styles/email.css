@@ -1,0 +1,225 @@
+html{
+    background-image: url("../images/bats.gif");
+
+}
+body{
+    margin: 0 auto;
+    width: 800px;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 80px #000;
+    background: white;
+}
+
+h1{
+    font-size: 24pt;
+}
+h2{
+    font-size: 20pt;
+    text-align: center;
+}
+h3{
+    font-size: 16pt;
+}
+#mainTitle::first-letter{
+    font-size: 50pt;
+}
+img{
+    float:left;
+    padding:20px;
+}
+#HStoreTitle{
+    text-indent: 20px;
+    padding:20px;
+    font-size: 44px;
+    
+}
+#GoblinTitle{
+    text-indent: 20px;
+    font-size: 16pt;
+    margin-top: -45px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#propsLink:link{
+    color:black;
+    font-weight: bold;
+}
+#propsLink:hover{
+    color:green;
+}
+
+#costumesLink:link{
+    color:black;
+    font-weight: bold;
+}
+#costumesLink:hover{
+    color:green;
+}
+#speffectsLink:link{
+    color:black;
+    font-weight: bold;
+}
+#speffectsLink:hover{
+    color:green;
+}
+#masksLink:link{
+    color:black;
+    font-weight: bold;
+}
+#masksLink:hover{
+    color:green;
+}
+#one{
+    padding:5px;
+    font-weight: bold;
+}
+#two{
+    padding:5px;
+    font-weight: bold;
+}
+#three{
+    padding:5px;
+    font-weight: bold;
+}
+#four{
+    padding:5px;
+    font-weight: bold;
+}
+#copywrite{
+    font-size: 10pt;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    border-top: 2px solid;
+    border-color: black;
+    background: linear-gradient(45deg, black, orange, white);
+}
+#topHeader{
+    border-bottom: 2px solid;
+    border-color: black;
+    background: linear-gradient(45deg, white, orange, black);
+}
+
+#leftCol{
+    float:left;
+    width: 160px;
+    min-height: 100px;
+}
+#vert{
+    margin-top: 15px;
+
+}
+#list,li{
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+    list-style: none;
+    text-indent: 15px;
+}
+#list li a{
+    display: block;
+    line-height:2em;
+    paddding:.2em 0 .2em 1em;
+    background: orange;
+    color:white;
+    border:solid black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#h_menu{
+    background: black;
+    height: 2.3em;
+    margin-top: -48px;
+    
+}
+#h_menu li{
+    display: inline-block;
+}
+.current{
+    color: orange;
+}
+#h_menu li a{
+    line-height: 2.3em;
+    padding: 0 1.6em;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+}
+#h_menu li a:hover{
+    background: gray;
+    position: relative;
+}
+#Horizontal_Menu li{
+    margin:0;
+    padding:0;
+    list-style: none;
+    float: left;
+}
+#Horizontal_Menu{
+    width:100%;
+    padding:0 1em;
+    
+}
+#ione{
+    margin-left: -90px;
+    color:white;
+}
+#ione:hover{
+    color:black;
+}
+#itwo{
+    color:white;
+}
+#itwo:hover{
+    color:black;
+}
+#ithree{
+    color:white;
+}
+#ithree:hover{
+    color:black;
+}
+#ifour{
+    color:white;
+}
+#ifour:hover{
+    color:black;
+}
+#ifive{
+    color:orange;
+}
+#forms label{
+    padding:25px;
+    margin-bottom: 25px;
+}
+input[type=text] {
+  width: 18em;
+}
+input[type=email]{
+    width: 18em;
+    margin-left: 34px;
+}
+#second{
+    margin-top: -4px;
+}
+#third{
+    margin-top: -4px;
+}
+#fourth{
+    margin-top: -4px;
+}
+#zip{
+    margin-left:9px;
+}
+#subscribe{
+    margin-left: 293px;
+    margin-bottom: 17px;
+    background: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:14px;
+    border: 1px solid black;
+}
