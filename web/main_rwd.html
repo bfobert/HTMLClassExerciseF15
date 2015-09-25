@@ -5,12 +5,14 @@
 	<meta charset="utf-8" />
 	<title>Halloween Store</title>
         <link rel="stylesheet" type="text/css" href="styles/main_rwd.css">
+        <link rel="stylesheet" type="text/css" href="styles/hamburger.css">
 </head>
 
 <body>
     <header id="topHeader">
-    <img src="images/pumpkin.gif" alt="pumpkin!">
-   
+        <div class="image-wrapper">
+    <img src="images/pumpkin.gif" alt="pumpkin!" id="pumpk">
+        </div>
 	 <h1 id="HStoreTitle">The Halloween Store</h1>
          <h2 id="GoblinTitle">For the little Goblin in all of us!</h2>
     </header>
@@ -32,6 +34,7 @@
             <li><a id ="ifour" href="google.com" class=”decorating”>Decorating Ideas</a></li>
             <li><a id="ifive" href="email.html" class=”email”>Join Email</a></li>
         </ul>
+        <a href="" id="hamburger">MENU &#9776;</a>
     </nav>
     <section id="rightCol">
     <header id="head1">
@@ -46,7 +49,9 @@
 </section>
          <section id="product_of_the_week">
 <h2>Product of the Week</h2>
-<a href="products/cat.htm"> <img id="catPic" src="images/cat1.jpg" alt="cat!"></a>
+<div class="image-wrapper">
+<a href="products/cat.htm"> <img id="catPic" src="images/cat1.jpg" alt="cat!" class="scale-image"></a>
+</div>
     <a id="catLink" href="products/cat.htm">20" Deranged cat</a>
          </section>
          <section id="guarantee">
@@ -57,6 +62,7 @@ If you aren't completely satisfied with everything you buy from my site, you can
     </section>
 <br>
 <br>
+<script src="js/hamburger.js"></script>
 <footer id="copywrite">
 &copy; 2016 Ben Murach
 </footer>

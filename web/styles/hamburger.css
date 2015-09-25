@@ -219,20 +219,13 @@ img{
 #ifive:hover{
     color:black;
 }
-#pumpk{
-    width:12%;
-    max-width: 85px;
-}
-#catPic{
-    width:40%;
+.scale-image{
+    display: block;
+    width:auto;
     min-width: 40px;
-    max-width: 154px;
 }
-/*.image-wrapper{
+.image-wrapper{
     position: relative;
-}*/
-#hamburger{
-    display: none;
 }
 @media only screen and (max-width: 800px){
     html{
@@ -241,9 +234,7 @@ img{
     body{
         box-shadow: none;
     }
-    #hamburger{
-        display: none;
-    }
+
 }
 @media only screen and (max-width: 767px){
     html{
@@ -254,8 +245,4 @@ img{
     }
     #Horizontal_Menu{display: none;}
     #h_menu{margin-top: -2em;}
-    #hamburger{
-        display:block;
-        float:right;
-    }
 }
