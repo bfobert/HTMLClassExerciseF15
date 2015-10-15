@@ -1,3 +1,5 @@
+package edu.elon.events;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -72,6 +74,13 @@ public class HalloweenServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+        String first = request.getParameter("first");
+        String last = request.getParameter("last");
+        String email = request.getParameter("email");
+        String zip = request.getParameter("zip");
+        System.out.println("first: "+ first + " last: "+last+" email: "+email+" zip: "+zip);
+        String url = "/subscribe.html";
+        getServletContext().getRequestDispatcher(url).forward(request, response);
     }
 
     /**
