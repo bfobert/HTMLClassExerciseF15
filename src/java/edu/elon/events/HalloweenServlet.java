@@ -59,7 +59,7 @@ public class HalloweenServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+            doPost(request,response);
     }
 
     /**
@@ -73,13 +73,17 @@ public class HalloweenServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        String url = "/index.html";
+        String check = request.getParameter("check");
+        if(check!=null){
+            url = "/subscribe.html";
+        
         String first = request.getParameter("first");
         String last = request.getParameter("last");
         String email = request.getParameter("email");
         String zip = request.getParameter("zip");
         System.out.println("first: "+ first + " last: "+last+" email: "+email+" zip: "+zip);
-        String url = "/subscribe.html";
+        }
         getServletContext().getRequestDispatcher(url).forward(request, response);
     }
 
